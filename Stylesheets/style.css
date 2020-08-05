@@ -1,0 +1,12 @@
+.article-title{
+  text-align: center;
+}
+.article-paragraph{
+  text-indent:50px;
+  font-size:2rem;
+
+}
+ @include media-breakpoint-up(md){
+   .display-1 .m-0{ font-size:4rem;
+   }
+ }
