@@ -1,7 +1,7 @@
 <!--NAV BAR-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!--NAV HEADER-->
-    <a class="navbar-brand" href="/Main Pages/index.html"><img src="https://i.ibb.co/Z8h9pg8/Goal-Throw-News.png" height="80" width="80" class="img-fluid pull-xs-left" alt="..."></a>
+    <a class="navbar-brand" href="../Main Pages/index.php"><img src="https://i.ibb.co/Z8h9pg8/Goal-Throw-News.png" height="80" width="80" class="img-fluid pull-xs-left" alt="..."></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
