@@ -9,7 +9,7 @@
     <!---->
     <!-- CSS AND FONTS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Stylesheets/style.css">
+    <link rel="stylesheet" href="../Stylesheets/style.css">
     <!---->
 </head>
 
@@ -95,19 +95,32 @@
 
     <div class="mb-2">
     </div>
-    <div class="container mb-4">
-        <h4  class="display-4 text-center" id="latest-news">Latest News</h4>
-        <h5  class="display-5 text-center">Lastest News</h5>
-        <h6
-      </div>
-        <!--  Latest News Card Deck-->
-        <div class="container mb-5">
-        <div class="card-deck">
+    <!--Start next row-->
+    <div class="row">
+        <!-- Latest News -->
+        <div class="container mb-4 col-9">
+            <h4  class="display-4 text-center" id="latest-news">Latest News</h4>
+            <h5  class="display-5 text-center">Lastest News</h5>
 
-
-
+            <!--  Latest News Card Deck-->
+            <div class="container mb-5">
+            </div>
+            <div class="card-deck">
+            </div>
+        </div>
+        <!---->
+        <!--Upcoming Event Sidebar-->
+        <div class="container col-2 bg-light  pt-3">
+            <h5>Upcoming Events</h5>
+            <!--List of Events-->
+            <div class="border-top border-lightgray p-1 mt-3">
+            </div>
+            <!---->
+        </div>
+        <!---->
+        <div class="col-1">
+        </div>
     </div>
-  </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
