@@ -19,13 +19,13 @@
         <h1 class="display-1 m-0 d-none d-lg-block">Goal Throw News</h1>
         <h2 class="display-2 m-0 d-none d-md-block d-lg-none">Goal Throw News</h2>
         <h4 class="display-4 m-0 	d-block d-md-none">Goal Throw News</h4>
-        <p class="lead"> The premier Water Polo news website</5>
+        <p class="lead"> The premier Water Polo news website</p>
         <!---->
         <?php include "template.php"; ?>
     </div>
     <!-- The picture that will replace the carousel when the screen is too small-->
     <div class="container d-block d-lg-none ">
-      <img class="rounded img-fluid" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="" class="img-rounded center-block w-100">
+      <img class="img-fluid center-block w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="">
     </div>
     <!-- Carousel -->
     <div class="container d-none d-lg-block pb-3">
