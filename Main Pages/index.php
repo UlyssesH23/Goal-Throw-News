@@ -14,14 +14,17 @@
 </head>
 
 <body>
-    <div class="container py-5">
+    
+        <?php include "template.php"; ?>
+        <div class="container py-5">
         <!--HEADING-->
         <h1 class="display-1 m-0 d-none d-lg-block">Goal Throw News</h1>
         <h2 class="display-2 m-0 d-none d-md-block d-lg-none">Goal Throw News</h2>
-        <h4 class="display-4 m-0 	d-block d-md-none">Goal Throw News</h4>
-        <p class="lead"> The premier Water Polo news website</p>
+        <h4 class="display-4 m-0 d-none d-sm-block d-md-none">Goal Throw News</h4>
+        <h5 class="display-5 m-0  d-block d-sm-none">Goal Throw News</h5>
+        <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
+        <p class="d-block d-md-none">The premier Water Polo news website</p>
         <!---->
-        <?php include "template.php"; ?>
     </div>
     <!-- The picture that will replace the carousel when the screen is too small-->
     <div class="container d-block d-lg-none ">

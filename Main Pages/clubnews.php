@@ -15,14 +15,16 @@
 </head>
 
 <body>
-    <div class="container py-5">
-        <!--HEADING-->
-        <h1 class="display-1 m-0 d-none d-lg-block">Goal Throw Club News</h1>
-        <h2 class="display-2 m-0 d-none d-md-block d-lg-none">Goal Throw Club News</h2>
-        <h4 class="display-4 m-0 	d-block d-md-none">Goal Throw Club News</h4>
-        <p class="lead"> The premier SoCal Water Polo Club news website</p>
-        <!---->
+    
         <?php include "template.php"; ?>
+        <div class="container py-5">
+        <!--HEADING-->
+        <h2 class="display-2 m-0 d-none d-lg-block">Goal Throw Club News</h2>
+        <h3 class="display-3 m-0 d-none d-md-block d-lg-none">Goal Throw Club News</h3>
+        <h5 class="display-5 m-0 	d-block d-md-none">Goal Throw Club News</h5>
+        <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
+        <p class="d-block d-md-none">The premier Water Polo news website</p>
+        <!---->
     </div>
     <!-- Carousel -->
     <div class="container">

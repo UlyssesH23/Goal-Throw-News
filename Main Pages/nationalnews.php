@@ -11,7 +11,9 @@
 </head>
 
 <body>
-    <div class="container py-5">
+    
+        <?php include "template.php"; ?>
+        <div class="container py-5">
         <!--HEADING-->
         <h3 class="display-3 m-0 d-none d-lg-block">Goal Throw National News</h3>
         <h4 class="display-4 m-0 d-none d-md-block d-lg-none">Goal Throw National News</h4>
@@ -19,7 +21,6 @@
         <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
         <p class="d-block d-md-none">The premier Water Polo news website</p>
         <!---->
-        <?php include "template.php"; ?>
     </div>
     <!-- The picture that will replace the carousel when the screen is too small-->
     <div class="container d-block d-lg-none ">
