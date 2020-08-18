@@ -28,6 +28,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="../Main Pages/nationalnews.php">National News </a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Main Pages/about.php">About</a>
+            </li>
         </ul>
          < <form class="form-inline ml-auto">
       <div class="md-form my-0">

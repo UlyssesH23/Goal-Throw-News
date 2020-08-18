@@ -48,7 +48,7 @@
               <!-- First Carousel Slide--->
                 <div class="carousel-item active">
                     <div class="view">
-                        <a href="/Story Pages/welcomeStory.html"> <img class="d-block img-fluid w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="First slide">
+                        <a href="/Story Pages/welcomeStory.php"> <img class="d-block img-fluid w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="First slide">
                         </a>
                     </div>
                     <div class="carousel-caption">
@@ -103,7 +103,7 @@
         <!-- Latest News -->
         <div class="container mb-4 col-9">
             <h4  class="display-4 text-center" id="latest-news">Latest News</h4>
-            <h5  class="display-5 text-center">Lastest News</h5>
+            <h5  class="display-5 text-center">Latest News</h5>
 
             <!--  Latest News Card Deck-->
             <div class="container mb-5">
