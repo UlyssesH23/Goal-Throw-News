@@ -21,13 +21,16 @@ if ($conn->connect_error) {
 
 if ($title != "" && $article != "") {
 
-  $findinfo = mysqli_query($conn, "INSERT INTO posts (username, email, password) VALUES ('$username', '$email', '$password')");
+  $findinfo = mysqli_query($conn, "INSERT INTO posts (title, subtitle, article) VALUES ('$title', '$subtitle', '$article') SELECT last_insert_id()");
+  $findinforow = mysqli_fetch_array($findinfo);
+  $_SESSION
+
   $conn->close();
-  setcookie("Successc", "Account Created!", time() + 9);
-  header("Location: login.php");
+  header("Location: ../addpost2.php");
+
 } else {
-  setcookie("Errorc", "*Please fill out all fields", time() + 9);
-  header("Location: login.php");
+  setcookie("Errorc", "*Please fill out required fields", time() + 9);
+  header("Location: addpost.php");
 }
 
 

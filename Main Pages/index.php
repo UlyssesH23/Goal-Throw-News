@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -14,7 +21,7 @@
 </head>
 
 <body>
-    
+
         <?php include "template.php"; ?>
         <div class="container py-5">
         <!--HEADING-->

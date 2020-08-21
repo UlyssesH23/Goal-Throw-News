@@ -8,10 +8,13 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
+$id = last_insert_id();
+echo $id;
+
 if(isset($_POST['but_upload'])){
 
   $name = $_FILES['file']['name'];
-  $target_dir = "images/";
+  $target_dir = "../images";
   $target_file = $target_dir . basename($_FILES["file"]["name"]);
 
   // Select file type
@@ -27,7 +30,7 @@ if(isset($_POST['but_upload'])){
     $image_base64 = base64_encode(file_get_contents($_FILES['file']['tmp_name']) );
     $image = 'data:image/'.$imageFileType.';base64,'.$image_base64;
     // Insert record
-    $query = "CREATE profiles SET image='$image' where id='$id'";
+    $query = "UPDATE profiles SET mimage='$image' where id='$id'";
     mysqli_query($link,$query);
 
     // Upload file
@@ -48,22 +51,14 @@ if(isset($_POST['but_upload'])){
 		  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<meta charset="utf-8">
 		<title>Upload form</title>
-		<meta name="description" content="">
-		<meta name="author" content="">
-
-		<!-- Mobile Specific Metas
-		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<!-- FONT
-		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-		<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-		<!-- CSS
-		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/skeleton.css">
-		<link rel="stylesheet" href="css/styles.css">
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!---->
+    <!-- CSS AND FONTS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Stylesheets/style.css">
+    <!---->
 
 	</head>
 	<body>
@@ -71,13 +66,13 @@ if(isset($_POST['but_upload'])){
 			<?php include 'template.php';?>
 		</header>
 		<article>
-			<div align="center">
-				post form
+      <div align="center">
+				<h3>Post form</h3>
 			</div>
 		<br /> <br />
 
 			<div class="sub_text">
-				Image
+				<h4>Image</h4>
 			</div>
 				<form method='post' action='' enctype='multipart/form-data'>
 					<input type='file' name='file'>
@@ -86,17 +81,6 @@ if(isset($_POST['but_upload'])){
 			</div>
 			<br /><br /><br />
 
-			<form align="center" action="editingprof.php" method="post">
-				<br>
-				<div class="sub_text">
-					About Me
-				</div>
-				<div class="bio_box">
-					<textarea placeholder="Say something about yourself" rows="60" columns="50" name="bio" id="bio"><?php echo $desc; ?></textarea>
-				</div>
-				<br>
-				<input type="submit" class="button" value="Edit" id="submit_button"/>
-			</form>
 		</article>
 
 
