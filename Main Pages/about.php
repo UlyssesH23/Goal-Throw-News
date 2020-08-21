@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>About Goal Throw News</title>
-    <!-- Required meta tags -->hh
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,16 +16,14 @@
         <h4 class="display-4 m-0 d-none d-sm-block d-md-none text-center ">About</h4>
         <h5 class="display-5 m-0  d-block d-sm-none text-center ">About</h5>
 
-<<<<<<< HEAD
-=======
-        <h3 class="display-2 m-0 d-none d-lg-block text-center border-bottom border-dark">What is Goal Throw News?</h2>
-              <h4 class="display-2 m-0 d-none d-md-block d-lg-none text-center ">What is Goal Throw News</h3>
-              <h5 class="display-4 m-0 d-none d-sm-block d-md-none text-center ">What is Goal Throw News?</h5>
-              <h6 class="display-5 m-0  d-block d-sm-none text-center ">What is Goal Throw News?</h6>
+        <h4 class="display-4 m-0 d-none d-lg-block text-center mt-4">What is Goal Throw News?</h4>
+              <h4 class="display-2 m-0 d-none d-md-block d-lg-none text-center  mt-4">What is Goal Throw News</h3>
+              <h5 class="display-4 m-0 d-none d-sm-block d-md-none text-center  mt-4">What is Goal Throw News?</h5>
+              <h6 class="display-5 m-0  d-block d-sm-none text-center  mt-4">What is Goal Throw News?</h6>
               <p>Goal Throw News is a news website dedicated to Water Polo News.</p>
 
 
->>>>>>> 2d1cfa183c702abb65599d42af83aa4d0c92637d
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
