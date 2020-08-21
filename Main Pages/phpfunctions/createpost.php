@@ -23,7 +23,7 @@ if ($title != "" && $article != "") {
 
   $findinfo = mysqli_query($conn, "INSERT INTO posts (title, subtitle, article) VALUES ('$title', '$subtitle', '$article') SELECT last_insert_id()");
   $findinforow = mysqli_fetch_array($findinfo);
-  $_SESSION
+  $_SESSION//CONTINUE
 
   $conn->close();
   header("Location: ../addpost2.php");
