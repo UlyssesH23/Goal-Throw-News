@@ -2,14 +2,14 @@
 
 session_start();
 
-$conn = new mysqli("localhost", "root", "", "database");
+$conn = mysqli_connect("localhost", "root", "", "database");
 
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+if (mysqli_connect_errno()) {
+  echo "Connection failed: " . mysqli_connect_error();
 }
 
-$id = last_insert_id();
-echo $id;
+$id = $_SESSION['prevID'];
+
 
 if(isset($_POST['but_upload'])){
 
@@ -31,7 +31,7 @@ if(isset($_POST['but_upload'])){
     $image = 'data:image/'.$imageFileType.';base64,'.$image_base64;
     // Insert record
     $query = "UPDATE profiles SET mimage='$image' where id='$id'";
-    mysqli_query($link,$query);
+    mysqli_query($conn,$query);
 
     // Upload file
     move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$name);
@@ -70,7 +70,6 @@ if(isset($_POST['but_upload'])){
 				<h3>Post form</h3>
 			</div>
 		<br /> <br />
-
 			<div class="sub_text">
 				<h4>Image</h4>
 			</div>

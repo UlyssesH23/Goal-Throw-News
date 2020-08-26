@@ -2,10 +2,10 @@
 
 session_start();
 
-$conn = new mysqli("localhost", "root", "", "database");
+$conn = mysqli_connect("localhost", "root", "", "database");
 
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+if (mysqli_connect_errno()) {
+  echo "Connection failed: " . mysqli_connect_error();
 }
 
 
