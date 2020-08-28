@@ -100,8 +100,10 @@ session_start();
     <div class="container">
         <!-- Latest News -->
         <div class="container mb-4 col-9">
-            <h4  class="display-4 text-center" id="latest-news">Latest News</h4>
-            <h5  class="display-5 text-center">Latest News</h5>
+          <h3 class="display-3 m-0 text-center d-none d-lg-block">Latest News</h3>
+          <h4 class="display-4 m-0 d-none text-center d-md-block d-lg-none">Latest News</h4>
+          <h5 class="display-5 m-0 	d-block text-center d-md-none">Latest News</h5>
+
 
             <!--  Latest News Card Deck-->
             <div class="container mb-5">

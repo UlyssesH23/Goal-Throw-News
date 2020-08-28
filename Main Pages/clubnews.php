@@ -89,9 +89,11 @@
         </div>
         <!--/.Carousel Wrapper-->
     </div>
-<div class="mt-3">
 
-</div >
+  <div class="">
+      <?php include "latestnewsheader.php"; ?>
+  </div>
+
   <?php include "footer.php"; ?>
 </body>
 

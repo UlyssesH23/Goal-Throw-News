@@ -89,6 +89,10 @@
         </div>
         <!--/.Carousel Wrapper-->
     </div>
+    <!--Latest News-->
+    <div class="">
+        <?php include "latestnewsheader.php"; ?>
+    </div>
   <?php include "footer.php"; ?>
 </body>
 
