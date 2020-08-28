@@ -13,19 +13,20 @@ echo $title;
 echo $subtitle;
 echo $article;
 
-$conn = new mysqli("localhost", "root", "", "database");
+$conn = mysqli_connect("localhost", "root", "", "database");
 
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+if (mysqli_connect_errno()) {
+  echo "Connection failed: " . mysqli_connect_error();
 }
 
 if ($title != "" && $article != "") {
 
-  $findinfo = mysqli_query($conn, "INSERT INTO posts (title, subtitle, article) VALUES ('$title', '$subtitle', '$article') SELECT last_insert_id()");
-  $findinforow = mysqli_fetch_array($findinfo);
-  $_SESSION//CONTINUE
-
-  $conn->close();
+  $findinfo = mysqli_query($conn, "INSERT INTO posts (title, subtitle, article) VALUES ('$title', '$subtitle', '$article')");
+  $findinfoid = mysqli_query($conn, "SELECT last_insert_id()");
+  $findinfoidrow  = mysqli_fetch_array($findinfoid);
+  $_SESSION['prevID'] = $findinfoidrow[0];
+  echo $_SESSION['prevID'];
+  mysqli_close($conn);
   header("Location: ../addpost2.php");
 
 } else {
