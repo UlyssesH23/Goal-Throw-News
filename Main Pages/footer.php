@@ -5,23 +5,23 @@
 </div>
 <!-- Footer Elements -->
 <div class="footer-icons justify-content-center p-0 container navbar-nav">
-<ul class="ml-auto p-1 mr-auto">
-<a class=" waves-effect waves-light"href="instagram.com" style="color:white;">
+<ul class="ml-auto mt-2  mb-none p-1 mr-auto">
+<a class=" ml-auto"href="instagram.com" style="color:white;">
 <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
 </a>
 
-<a class=" waves-effect waves-light"href="instagram.com" style="color:white;">
+<a class="  ml-5"href="instagram.com" style="color:white;">
 <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
 </a>
 
-<a class=" waves-effect waves-light"href="instagram.com" style="color:white;">
+<a class="  ml-5 "href="instagram.com" style="color:white;">
 <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
 </a>
 </ul>
 </div>
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">© 2020 Copyright:
-  <a href="GoalThrowNews.com">GoalThrowNews.com</a>
+  <a href="GoalThrowNews.com ml-auto mr-auto">GoalThrowNews.com</a>
 </div>
 <!-- Copyright -->
 
