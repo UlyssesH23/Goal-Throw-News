@@ -9,13 +9,13 @@
     <!---->
 
     <!-- CSS AND FONTS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Stylesheets/style.css">
+  <?php include "headerlinks.php"; ?>
+
     <!--Let me know if this works-->
 </head>
 
 <body>
-    
+
         <?php include "template.php"; ?>
         <div class="container py-5">
         <!--HEADING-->
@@ -26,6 +26,7 @@
         <p class="d-block d-md-none">The premier Water Polo news website</p>
         <!---->
     </div>
+
     <!-- Carousel -->
     <div class="container">
 

@@ -10,17 +10,8 @@ session_start();
 
 <head>
     <title>Goal Throw News</title>
-    <!-- META TAGS -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!---->
-    <!-- CSS AND FONTS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Stylesheets/style.css">
-    <!---->
+<?php include "headerlinks.php"; ?>
 </head>
-
-<body>
 
         <?php include "template.php"; ?>
         <div class="container py-5">
@@ -106,7 +97,7 @@ session_start();
     <div class="mb-2">
     </div>
     <!--Start next row-->
-    <div class="row">
+    <div class="container">
         <!-- Latest News -->
         <div class="container mb-4 col-9">
             <h4  class="display-4 text-center" id="latest-news">Latest News</h4>
@@ -118,25 +109,24 @@ session_start();
             <div class="card-deck">
             </div>
         </div>
-        <!---->
-        <!--Upcoming Event Sidebar-->
+        <!--
+        Upcoming Event Sidebar
         <div class="container col-2 bg-light  pt-3">
             <h5>Upcoming Events</h5>
-            <!--List of Events-->
+            <List of Events>
             <div class="border-top border-lightgray p-1 mt-3">
             </div>
-            <!---->
+
         </div>
-        <!---->
+
         <div class="col-1">
-        </div>
+        </div><--->
     </div>
 
+  <?php include "footer.php"; ?>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-</body>
+
+
 
 </html>

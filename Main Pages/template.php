@@ -1,3 +1,5 @@
+
+
 <!--NAV BAR-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-dark">
     <!--NAV HEADER-->
@@ -32,6 +34,7 @@
                 <a class="nav-link" href="../Main Pages/about.php">About</a>
             </li>
         </ul>
+        
          <form class="form-inline ml-auto">
       <div class="md-form my-0">
         <input class="form-control" type="text" placeholder="Search" aria-label="Search">

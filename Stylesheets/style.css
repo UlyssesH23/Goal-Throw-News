@@ -10,31 +10,15 @@ p .article-paragraph{
   text-indent:50px;
 }
 
-/* General Text CSS */
-html {
-  font-size: 1rem;
+.fa-instagram{
+  color:white;
 }
 
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
+a .white-icons{
+  color: white;
+  text-decoration: none;
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
-
-/*More border colors*/
-
-.border-lightgray {
-  border-color: #c2c2c2!important;
+a{
+  color: white;
 }
