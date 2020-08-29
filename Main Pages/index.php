@@ -25,8 +25,9 @@ session_start();
         <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
         <p class="d-block d-md-none">The premier Water Polo news website</p>
         <!---->
-        <hr size:"80">
-    </div>
+      </div>
+
+
     <!-- The picture that will replace the carousel when the screen is too small-->
     <div class="container d-block d-lg-none ">
       <img class="img-fluid center-block w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="">

@@ -22,3 +22,10 @@ a .white-icons{
 a{
   color: white;
 }
+
+hr.underline-title#underline-title{
+  height: 5px;
+  color:#212529;
+  background-color: #212529;
+  border
+}
