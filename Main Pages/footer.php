@@ -21,7 +21,7 @@
 </div>
 <!-- Copyright -->
 <div class="footer-copyright text-center py-3">© 2020 Copyright:
-  <a href="GoalThrowNews.com ml-auto mr-auto">GoalThrowNews.com</a>
+  <a href="GoalThrowNews.com" class="ml-auto mr-auto">GoalThrowNews.com</a>
 </div>
 <!-- Copyright -->
 

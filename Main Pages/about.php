@@ -10,6 +10,8 @@
   </head>
   <body>
        <?php include "template.php"; ?>
+       <br>
+       <br>
   <h1 class="display-1 m-0 d-none d-lg-block text-center mb-4">About</h1>
         <h2 class="display-2 m-0 d-none d-md-block d-lg-none text-center ">About</h2>
         <h4 class="display-4 m-0 d-none d-sm-block d-md-none text-center ">About</h4>

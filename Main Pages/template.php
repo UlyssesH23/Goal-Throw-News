@@ -34,10 +34,10 @@
                 <a class="nav-link" href="../Main Pages/about.php">About</a>
             </li>
         </ul>
-        
+
          <form class="form-inline ml-auto">
-      <div class="md-form my-0">
-        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+      <div class="md-form my-1 px-2">
+        <input class="form-control" type="text" placeholder="Search for news" aria-label="Search">
       </div>
       <button href="#!" class="btn btn-outline-white btn-md my-0 ml-sm-2" style="color:white; border-color:white" type="submit">Search</button>
     </form>
