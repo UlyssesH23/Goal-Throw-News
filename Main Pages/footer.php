@@ -10,11 +10,11 @@
 <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
 </a>
 
-<a class="  ml-5"href="https://instagram.com" style="color:white;">
+<a class="  ml-5"href="https://twitter.com" style="color:white;">
 <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
 </a>
 
-<a class="  ml-5 "href="https://instagram.com" style="color:white;">
+<a class="  ml-5 "href="https://facebook.com" style="color:white;">
 <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
 </a>
 </ul>
