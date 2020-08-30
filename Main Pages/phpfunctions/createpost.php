@@ -9,6 +9,7 @@ $article;
 $title = $_POST['title'];
 $subtitle = $_POST['subtitle'];
 $article = $_POST['article'];
+$type = $_POST['seltype'];
 echo $title;
 echo $subtitle;
 echo $article;
@@ -21,7 +22,7 @@ if (mysqli_connect_errno()) {
 
 if ($title != "" && $article != "") {
 
-  $findinfo = mysqli_query($conn, "INSERT INTO posts (title, subtitle, article) VALUES ('$title', '$subtitle', '$article')");
+  $findinfo = mysqli_query($conn, "INSERT INTO posts (title, subtitle, article, type) VALUES ('$title', '$subtitle', '$article', '$type')");
   $findinfoid = mysqli_query($conn, "SELECT last_insert_id()");
   $findinfoidrow  = mysqli_fetch_array($findinfoid);
   $_SESSION['prevID'] = $findinfoidrow[0];

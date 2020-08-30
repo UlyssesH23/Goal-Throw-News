@@ -6,15 +6,15 @@
 <!-- Footer Elements -->
 <div class="footer-icons justify-content-center p-0 container navbar-nav">
 <ul class="ml-auto mt-2  mb-none p-1 mr-auto">
-<a class=" ml-auto"href="instagram.com" style="color:white;">
+<a class=" ml-auto"href="https://instagram.com" style="color:white;">
 <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
 </a>
 
-<a class="  ml-5"href="instagram.com" style="color:white;">
+<a class="  ml-5"href="https://instagram.com" style="color:white;">
 <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
 </a>
 
-<a class="  ml-5 "href="instagram.com" style="color:white;">
+<a class="  ml-5 "href="https://instagram.com" style="color:white;">
 <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
 </a>
 </ul>
