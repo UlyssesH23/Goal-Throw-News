@@ -1,7 +1,7 @@
 
 
 <!--NAV BAR-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark " style=" background-color:#3066BE;">
     <!--NAV HEADER-->
     <a class="navbar-brand" href="../Main Pages/index.php"><img src="https://i.ibb.co/kx5rnPv/Goal-Throw-News-Copy.png" height="80" width="80" class="img-fluid pull-xs-left" alt="..."></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
