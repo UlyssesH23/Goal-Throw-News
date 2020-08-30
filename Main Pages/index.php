@@ -104,18 +104,41 @@ session_start();
     <!--Start next row-->
     <div class="container">
         <!-- Latest News -->
-        <div class="container mb-4 col-9">
-          <h3 class="display-3 m-0 text-center d-none d-lg-block">Latest News</h3>
-          <h4 class="display-4 m-0 d-none text-center d-md-block d-lg-none">Latest News</h4>
-          <h5 class="display-5 m-0 	d-block text-center d-md-none">Latest News</h5>
+      <?php include "latestnewsheader.php"; ?>
 
+      <div class="card-deck">
+        <a href="" class="card-link-clickable">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </a>
+  <a href="" class="card-link-clickable">
+    <div class="card">
+      <img src="../Goal Throw News (1).png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </a>
+  <a href="" class="card-link-clickable">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </a>
+  </div>
 
-            <!--  Latest News Card Deck-->
-            <div class="container mb-5">
-            </div>
-            <div class="card-deck">
-            </div>
-        </div>
         <!--
         Upcoming Event Sidebar
         <div class="container col-2 bg-light  pt-3">
