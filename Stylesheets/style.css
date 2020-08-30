@@ -23,9 +23,11 @@ a{
   color: white;
 }
 
-hr.underline-title#underline-title{
-  height: 5px;
-  color:#212529;
+hr{
+  border-style: none;
+  height: 3px;
   background-color: #212529;
-  border
+
+
+
 }

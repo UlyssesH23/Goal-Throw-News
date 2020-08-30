@@ -23,7 +23,8 @@ session_start();
         <h4 class="display-4 m-0 d-none d-sm-block d-md-none">Goal Throw News</h4>
         <h5 class="display-5 m-0  d-block d-sm-none">Goal Throw News</h5>
         <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
-        <p class="d-block d-md-none">The premier Water Polo news website</p>
+        <p class="d-block mb-0 d-md-none">The premier Water Polo news website</p>
+        <hr class="pr-3 mt-0">
         <!---->
       </div>
 
