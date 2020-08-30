@@ -14,8 +14,8 @@ $id = $_SESSION['prevID'];
 if(isset($_POST['but_upload'])){
 
   $name = $_FILES['file']['name'];
-  $target_dir = "../images";
-  $target_file = $target_dir . basename($_FILES["file"]["name"]);
+  $target_dir = "../images/";
+  $target_file = $target_dir . basename($name);
 
   // Select file type
   $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -30,12 +30,13 @@ if(isset($_POST['but_upload'])){
     $image_base64 = base64_encode(file_get_contents($_FILES['file']['tmp_name']) );
     $image = 'data:image/'.$imageFileType.';base64,'.$image_base64;
     // Insert record
-    $query = "UPDATE profiles SET mimage='$image' where id='$id'";
+    $query = "UPDATE posts SET mimage='$image' WHERE id='$id'";
     mysqli_query($conn,$query);
 
     // Upload file
     move_uploaded_file($_FILES['file']['tmp_name'],$target_dir.$name);
   }
+  setcookie("Status", "Post Successfully Posted", time() + 10);
 }
 
 
@@ -79,7 +80,12 @@ if(isset($_POST['but_upload'])){
 				</form>
 			</div>
 			<br /><br /><br />
+      <?php
+      if (isset($_COOKIE["Status"])) {
+        echo $_COOKIE["Status"];
+      }
 
+      ?>
 		</article>
 
 
