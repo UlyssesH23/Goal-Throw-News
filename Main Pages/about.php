@@ -12,11 +12,10 @@
        <?php include "template.php"; ?>
 
   <div class="container">
-
-  <h1 class="display-1 m-0 d-none d-lg-block ">About</h1>
-        <h2 class="display-2 m-0 d-none d-md-block d-lg-none ">About</h2>
-        <h4 class="display-4 m-0 d-none d-sm-block d-md-none  ">About</h4>
-        <h5 class="display-5 m-0  d-block d-sm-none  ">About</h5>
+  <h1 class="display-1 m-0 d-none d-lg-block ">About Us</h1>
+        <h2 class="display-2 m-0 d-none d-md-block d-lg-none ">About Us</h2>
+        <h4 class="display-4 m-0 d-none d-sm-block d-md-none  ">About Us</h4>
+        <h5 class="display-5 m-0  d-block d-sm-none  ">About Us</h5>
         <hr>
 </div>
         <h4 class="display-4 m-0 d-none d-lg-block text-center mt-4 pt-4 text-decoration-underlined">We are Goal Throw News</h4>
