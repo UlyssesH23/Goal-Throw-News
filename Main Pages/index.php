@@ -127,7 +127,7 @@ if (mysqli_connect_errno()) {
           echo '<div class="card-body">';
             echo '<h5 class="card-title">'.$getpostsarray[$x][1].'</h5>';
             if (isset($getpostsarray[$x][2])) {
-              echo '<p class="card-text">'.$getpostsarray[$x][1].'</p>';
+              echo '<p class="card-text">'.$getpostsarray[$x][2].'</p>';
             }
             echo '<p class="card-text"><small class="text-muted">Last updated '.$getpostsarray[$x][6].'</small></p>';
           echo '</div>';
