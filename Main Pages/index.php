@@ -2,6 +2,12 @@
 
 session_start();
 
+$conn = mysqli_connect("localhost", "root", "", "database");
+
+if (mysqli_connect_errno()) {
+  echo "Connection failed: " . mysqli_connect_error();
+}
+
  ?>
 
 
@@ -105,39 +111,36 @@ session_start();
     <div class="container">
         <!-- Latest News -->
       <?php include "latestnewsheader.php"; ?>
+      <br>
 
-      <div class="card-deck">
-        <a href="" class="card-link-clickable">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </a>
-  <a href="" class="card-link-clickable">
-    <div class="card">
-      <img src="../Goal Throw News (1).png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </a>
-  <a href="" class="card-link-clickable">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-  </a>
-  </div>
+      <?php
+
+      $getposts = mysqli_query($conn, "SELECT * FROM posts");
+      $getpostsarray  = mysqli_fetch_all($getposts);
+      echo '<div class="card-deck">';
+      for ($x = (count($getpostsarray)-1); $x >= 0; $x--) {
+        echo '<a class="card">';
+
+        if (isset($getpostsarray[$x][4])) {
+          echo '<img src='.$getpostsarray[$x][4].' class="card-img-top" alt="...">';
+        }
+          echo '<div class="card-body">';
+            echo '<h5 class="card-title">'.$getpostsarray[$x][1].'</h5>';
+            if (isset($getpostsarray[$x][2])) {
+              echo '<p class="card-text">'.$getpostsarray[$x][1].'</p>';
+            }
+            echo '<p class="card-text"><small class="text-muted">Last updated '.$getpostsarray[$x][6].'</small></p>';
+          echo '</div>';
+        echo '</a>';
+      }
+      //$getpostsarray[row][column]
+
+
+
+
+      echo '</div>';
+      ?>
+      <br>
 
         <!--
         Upcoming Event Sidebar
