@@ -26,6 +26,10 @@
                 <a class="nav-link" href="../Main Pages/clubnews.php">Club News</a>
             </li>
             <!---->
+            <!--High School News-->
+            <li class="nav-item">
+                <a class="nav-link" href="../Main Pages/highschool.php">High School News</a>
+            </li>
             <!--NATIONAL NEWS-->
             <li class="nav-item">
                 <a class="nav-link" href="../Main Pages/nationalnews.php">National News </a>
