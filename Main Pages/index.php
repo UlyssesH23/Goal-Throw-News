@@ -57,7 +57,7 @@ if (mysqli_connect_errno()) {
               <!-- First Carousel Slide--->
                 <div class="carousel-item active">
                     <div class="view">
-                        <a href="/Story Pages/welcomeStory.php"> <img class="d-block img-fluid w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="First slide">
+                        <a href="\Goal-Throw-News\Story Pages\welcomeStory.php"> <img class="d-block img-fluid w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="First slide">
                         </a>
                     </div>
                     <div class="carousel-caption">
