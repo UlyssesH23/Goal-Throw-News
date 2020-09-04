@@ -10,10 +10,7 @@
   <?php include "template.php"; ?>
 	<header class="hero">
     <div class="hero-wrap">
-     <p class="intro" id="intro">flexbox</p>
-		 <h1 id="headline">Tournament</h1>
-		 <p class="year"><i class="fa fa-star"></i> 2015 <i class="fa fa-star"></i></p>
-     <p>Ballin' Outta Control</p>
+    
    </div>
 	</header>
 
