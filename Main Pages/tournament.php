@@ -3,16 +3,14 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	  <?php include "tournamentheaderlinks.php"; ?>
-	<title>March Madness Stock Matchup</title>
+	<title>Tournament Template</title>
 </head>
 
 <body>
   <?php include "template.php"; ?>
-	<header class="hero">
-    <div class="hero-wrap">
-    
-   </div>
-	</header>
+
+
+<img class="bg"src="../Goal Throw News (1).png" class="bg" alt="...">
 
 
 	<section id="bracket">
