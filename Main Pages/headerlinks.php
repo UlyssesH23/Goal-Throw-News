@@ -18,3 +18,4 @@ rel="stylesheet"
 />
 
 <link href="../Stylesheets/style.css" rel="stylesheet">
+<link href="../Stylesheets/colors.css" rel="stylesheet">

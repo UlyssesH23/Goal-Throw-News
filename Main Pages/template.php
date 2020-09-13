@@ -1,7 +1,7 @@
 
 
 <!--NAV BAR-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#3a0077 !important;">
     <!--NAV HEADER-->
     <a class="navbar-brand" href="../Main Pages/index.php"><img src="https://i.ibb.co/kx5rnPv/Goal-Throw-News-Copy.png" height="80" width="80" class="img-fluid pull-xs-left" alt="..."></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,12 +18,18 @@
                   </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="../Main Pages/index.php#latest-news">Latest News</a>
+                    <a class="dropdown-item" href="../Main Pages/index.php#events">Events</a>
                 </div>
             </li>
             <!---->
             <!--CLUB NEWS-->
-            <li class="nav-item">
-                <a class="nav-link" href="../Main Pages/clubnews.php">Club News</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link navbar-toggle" href="../Main Pages/clubnews.php" id="navbardrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Club News</a>
+                <div class="dropdown-menu">
+
+                  <a class="dropdown-item" href="../Main Pages/clubnews.php#latest-news">Latest News</a>
+                  <a class="dropdown-item" href="../Main Pages/clubnews.php#events">Events</a>
+                </div>
             </li>
             <!---->
             <!--High School News-->
