@@ -1,6 +1,6 @@
 body{
-  background-color: #fffcea !important;
-  color: #283c63 !important;
+  background-color: #ffff !important;
+  color: #1C0B19 !important;
 }
 
  nav{
@@ -9,15 +9,32 @@ body{
  footer{
    background-color: #3fc1c9 !important;
  }
- a{
-   color:#fc5185;
- }
+
  h1{
-   color:#283c63;
+   color:#1C0B19 !important;
  }
  h3{
-   color:#283c63;
+   color:#1C0B19 !important;
  }
  p{
-   color:#283c63;
+   color:#1C0B19 !important;
  }
+ div.carousel-caption h3{
+   color:#ffff !important;
+ }
+ div.carousel-caption h4{
+   color:#ffff !important;
+ }
+ div.carousel-caption p{
+   color:#ffff !important;
+ }
+  div.footer-copyright.text-center.py-3 a:hover{
+    color:#1C0B19;
+    text-decoration: none;
+  }
+a.nav-link{
+  color:#ffff !important;
+}
+a.nav-link:hover{
+  color:#392A36 !important;
+}

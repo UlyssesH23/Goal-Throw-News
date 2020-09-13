@@ -45,8 +45,7 @@
                 <div class="carousel-item active">
                     <div class="view">
                         <img class="d-block w-100" src="https://i.ibb.co/5xzh5W1/Goal-Throw-News-Copy-3.jpg" alt="First slide">
-
-                    </div>
+                      </div>
                     <div class="carousel-caption">
                         <h3 class="h3-responsive">Light mask</h3>
                         <p>First text</p>
