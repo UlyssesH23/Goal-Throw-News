@@ -19,9 +19,9 @@
         <?php include "template.php"; ?>
         <div class="container py-5">
         <!--HEADING-->
-        <h2 class="display-2 m-0 d-none d-lg-block">Goal Throw High School News</h2>
+        <h3 class="display-3 m-0 d-none d-lg-block">Goal Throw High School News</h2>
         <h3 class="display-3 m-0 d-none d-md-block d-lg-none">Goal Throw High School News</h3>
-        <h5 class="display-5 m-0 d-block d-md-none">Goal Throw High School News</h5>
+        <h4 class="display-4 m-0 d-block d-md-none">Goal Throw High School News</h5>
         <p class="lead d-none d-md-block subtext"> The premier Water Polo news website</p>
         <p class="d-block d-md-none subtext">The premier Water Polo news website</p>
         <!---->
