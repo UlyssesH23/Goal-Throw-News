@@ -70,7 +70,7 @@ if (mysqli_connect_errno()) {
                 <div class="carousel-item">
 
                     <div class="view">
-                        <img class="d-block w-100" src="https://i.ibb.co/5xzh5W1/Goal-Throw-News-Copy-3.jpg
+                        <img class="d-block w-100" src="../slightly blurred pool with blakc logo in bottom right hand corner.png
                        " alt="Second slide">
 
                     </div>

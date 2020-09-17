@@ -31,3 +31,8 @@ hr{
   u.subtitle{
     height: 1px;
   }
+
+  ol.carousel-indicators li{
+    border-radius: 50%;
+    height: 6px;
+  }

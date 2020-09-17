@@ -29,12 +29,14 @@
 
                   <a class="dropdown-item" href="../Main Pages/clubnews.php#latest-news">Latest News</a>
                   <a class="dropdown-item" href="../Main Pages/clubnews.php#events">Events</a>
-                </div>
+                    <!--<a class="dropdown-item" href="../Main Pages/clubnews.php#rankings">Rankings</a>
+                </div>-->
             </li>
             <!---->
             <!--High School News-->
             <li class="nav-item">
                 <a class="nav-link" href="../Main Pages/highschool.php">High School News</a>
+
             </li>
             <!--NATIONAL NEWS-->
             <li class="nav-item">

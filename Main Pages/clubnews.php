@@ -93,7 +93,7 @@
   <div class="">
       <?php include "latestnewsheader.php"; ?>
   </div>
-
+<?php include "../PHP/rankingstitle.php"; ?>
   <?php include "footer.php"; ?>
 </body>
 
