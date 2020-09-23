@@ -70,15 +70,14 @@ if (mysqli_connect_errno()) {
                 <div class="carousel-item">
 
                     <div class="view">
-                        <img class="d-block w-100" src="../nothinggoinonhere.png">
-                       " alt="Second slide">
-
+                        <img class="d-block w-100" src="../nothinggoingonhere.png" alt="Second slide">
                     </div>
+
                    <div class="carousel-caption">
                         <h3 class="h3 d-none d-md-block">Nothing Going On Here</h3>
                         <h4 class="h4 d-block d-md-none ">Nothing Going On Here</h4>
                         <p>Water polo faces a pool shortage as many pools stay empty.</p>
-                    </div>-->
+                    </div>
                 </div>
                 <div class="carousel-item">
                     <!--Mask color-->
@@ -155,7 +154,6 @@ if (mysqli_connect_errno()) {
         <div class="col-1">
         </div><--->
     </div>
-<button id="test">Hello</button>
   <?php include "footer.php"; ?>
 
 

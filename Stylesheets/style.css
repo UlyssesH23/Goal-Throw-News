@@ -31,5 +31,10 @@ hr{
   u.subtitle{
     height: 1px;
   }
+.openSansReg{
+  font-family: Open Sans Regular !important;
+}
 
-  
+li a {
+color: #212529;
+}
