@@ -20,7 +20,7 @@
             <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
             <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
             <li class="nav-item dropdown">
-              <span class="navNewsBtn"><a class="nav-link dropdown-toggle nav-item" href="highschool.php" data-toggle="dropdown">News</a></span>
+              <a class="nav-link dropdown-toggle nav-item" href="highschool.php" data-toggle="dropdown">News</a>
               <!--Club News Section -->
               <ul class="dropdown-menu animate fade-up">
                 <li><a class="dropdown-item icon-arrow" href="../Main Pages/clubnews.php">Club</a>
