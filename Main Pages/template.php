@@ -18,17 +18,17 @@
         <div class="collapse navbar-collapse" id="main_nav7">
           <ul class="navbar-nav">
             <li class="nav-item active"> <a class="nav-link" href="#">Home </a> </li>
-            <li class="nav-item"><a class="nav-link" href="#"> About </a></li>
+          <!--News Dropdown-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle nav-item" href="highschool.php" data-toggle="dropdown">News</a>
               <!--Club News Section -->
               <ul class="dropdown-menu animate fade-up">
                 <li><a class="dropdown-item icon-arrow" href="../Main Pages/clubnews.php">Club</a>
-                <ul class="submenu dropdown-menu animate fade-up">
-                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Top Stories</a></li>
-                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Latest News</a></li>
-                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Submenu item 1</a></li>
-                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Submenu item 2</a></li>
+                <ul class="submenu dropdown-menu animate fade-up">                                                    <!--The comment below apply to all code-->
+                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Top Stories</a></li> <!--What we deem to be the most interesting or important completely arbitrarey.-->
+                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Latest News</a></li> <!-- Just the most recent stories-->
+                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Trending</a></li>  <!-- Determined by up votes and share-->
+                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Highlights</a></li> <!-- I would like to allow for people to xend us short hightlight clips and then we can spotlight them on the website like ESPN's top ten.
                   </ul>
                 </li>
                 <!---->
@@ -37,14 +37,13 @@
               <ul class="submenu dropdown-menu animate fade-up">
                 <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php#topStories">Top Stories</a></li>
                 <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php#latestNews">Latest News</a></li>
-                <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php">Submenu item 1</a></li>
+                <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php"></a></li>
                 <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php">Submenu item 2</a></li>
                 </ul>
               </li>
             <!---->
-            <!--Club News Section -->
 
-
+            <!-- College News Section -->
               <li><a class="dropdown-item icon-arrow" href="../Main Pages/college.php">College</a>
               <ul class="submenu dropdown-menu animate fade-up">
                 <li><a class="dropdown-item" href="../Main Pages/college.php#">Top Stories</a></li>
@@ -57,6 +56,7 @@
               <!---->
               </li>
             </ul>
+            <!---->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">  More items  </a>
                 <ul class="dropdown-menu animate fade-up">
