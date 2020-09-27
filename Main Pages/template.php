@@ -5,7 +5,7 @@
     <script src="..Stylesheets/assets/bootstrap/bootstrap.bundle.min.js" type="text/javascript"></script>
 -->
     <!-- Menukit CSS JS - add this to your project or merge with other your code -->
-    
+
     <nav class="navbar navbar-hover navbar-expand-lg navbar-dark sticky-top" style="background-color:#20A4F3 !important;">
 
 
@@ -35,8 +35,8 @@
               <ul class="submenu dropdown-menu animate fade-up">
                 <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php#topStories">Top Stories</a></li>
                 <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php#latestNews">Latest News</a></li>
-                <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php"></a>Trending</li>
-                <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php"></a></li>
+                <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php">Trending</a></li>
+                <li><a class="dropdown-item" href="../Main Pages/highschoolnews.php">Highlights</a></li>
                 </ul>
               </li>
             <!---->
@@ -46,8 +46,8 @@
               <ul class="submenu dropdown-menu animate fade-up">
                 <li><a class="dropdown-item" href="../Main Pages/college.php#">Top Stories</a></li>
                 <li><a class="dropdown-item" href="../Main Pages/college.php#">Latest News</a></li>
-                <li><a class="dropdown-item" href="../Main Pages/college.php#">Submenu item 1</a></li>
-                <li><a class="dropdown-item" href="../Main Pages/college.php#">Submenu item 2</a></li>
+                <li><a class="dropdown-item" href="../Main Pages/college.php#">Trending</a></li>
+                <li><a class="dropdown-item" href="../Main Pages/college.php#">Highlights</a></li>
                 </ul>
               </li>
 
@@ -56,37 +56,28 @@
             </ul>
             <!---->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">  More items  </a>
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">  Community </a>
                 <ul class="dropdown-menu animate fade-up">
                   <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
-                  <li><a class="dropdown-item" href="#"> Dropdown item 2 </a>
+                  <li><a class="dropdown-item icon-arrow" href="#"> Dropdown item 2 </a>
                     <ul class="submenu dropdown-menu animate fade-up">
                       <li><a class="dropdown-item" href="">Submenu item 1</a></li>
                       <li><a class="dropdown-item" href="">Submenu item 2</a></li>
                       <li><a class="dropdown-item" href="">Submenu item 3</a></li>
                     </ul>
                   </li>
-                  <li><a class="dropdown-item icon-arrow" href="#"> Dropdown item 3 </a>
-                    <ul class="submenu dropdown-menu animate fade-up">
-                      <li><a class="dropdown-item" href="">Another submenu 1</a></li>
-                      <li><a class="dropdown-item" href="">Another submenu 2</a></li>
-                      <li><a class="dropdown-item" href="">Another submenu 3</a></li>
-                      <li><a class="dropdown-item" href="">Another submenu 4</a></li>
-                    </ul>
-                  </li>
-                  <li><a class="dropdown-item icon-arrow" href="#"> Dropdown item 4 </a>
-                    <ul class="submenu dropdown-menu animate fade-up">
-                      <li><a class="dropdown-item" href="">Another submenu 1</a></li>
-                      <li><a class="dropdown-item" href="">Another submenu 2</a></li>
-                      <li><a class="dropdown-item" href="">Another submenu 3</a></li>
-                      <li><a class="dropdown-item" href="">Another submenu 4</a></li>
-                    </ul>
-                  </li>
-                  <li><a class="dropdown-item" href="#"> Dropdown item 4 </a></li>
-                  <li><a class="dropdown-item" href="#"> Dropdown item 5 </a></li>
                 </ul>
               </li>
+              <!--About Dropdown-->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">About</a>
+                  <!--Club News Section -->
+                  <ul class="dropdown-menu animate fade-up ">
+                    <li><a class="dropdown-item"  href="../Main Pages/About.php">FAQ</a></li>
+                      <li><a class="dropdown-item"  href="../Main Pages/About.php">Contact</a></li>
+                  </ul>
             </ul>
+
             <form class="form-inline ml-auto">
                  <div class="md-form my-1 px-2">
                    <input class="form-control" type="text" placeholder="Search for news" aria-label="Search">

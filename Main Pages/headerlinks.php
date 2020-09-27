@@ -20,7 +20,6 @@ rel="stylesheet"
 
 <link href="../Stylesheets/style.css" rel="stylesheet">
 <link href="../Stylesheets/colors.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <link href="../Stylesheets/assets/menukit.css" rel="stylesheet" >
 <link href="../Stylesheets/assets/menukit.css.map"link rel="stylesheet"  >
-<link  href="../Stylesheets/assets/menukit.scss">
+<link  href="../Stylesheets/assets/menukit.scss"> 

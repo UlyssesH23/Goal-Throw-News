@@ -37,11 +37,11 @@ if (mysqli_connect_errno()) {
 
 
     <!-- The picture that will replace the carousel when the screen is too small-->
-    <div class="container d-block d-sm-none ">
+<!--    <div class="container d-block d-sm-none ">
       <img class="img-fluid center-block w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="">
-    </div>
+    </div>-->
     <!-- Carousel d-none d-md-block -->
-    <div class="container  d-none d-sm-block pb-3">
+    <div class="container pb-3">
 
 
         <!--Carousel Wrapper-->
@@ -61,7 +61,7 @@ if (mysqli_connect_errno()) {
                         <a href="\Goal-Throw-News\Story Pages\welcomeStory.php"> <img class="d-block img-fluid w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="First slide">
                         </a>
                     </div>
-                    <div class="carousel-caption">
+                    <div class="carousel-caption d-none d-md-block">
                         <h3 class="h3 d-none d-lg-block ">Welcome!</h3>
                         <h4 class="h4 d-none d-md-block d-lg-none  ">Welcome!</h4>
                         <h5 class="h5 d-block d-md-none mb-0 ">Welcome!</h5>
@@ -74,10 +74,11 @@ if (mysqli_connect_errno()) {
                 <div class="carousel-item">
 
                     <div class="view">
-                        <img class="d-block w-100" src="../nothinggoingonhere.png" alt="Second slide">
+                        <img class="d-none d-md-block w-100" src="../nothinggoingonhere.png" alt="Second slide">
+                        <img class="d-block d-md-none w-100" src="../Nothing going on here small.png" >
                     </div>
 
-                   <div class="carousel-caption">
+                   <div class="carousel-caption d-none d-md-block">
                         <h3 class="h3 d-none d-md-block">Nothing Going On Here</h3>
                         <h4 class="h4 d-block d-md-none ">Nothing Going On Here</h4>
                         <p>Water polo faces a pool shortage as many pools stay empty.</p>
