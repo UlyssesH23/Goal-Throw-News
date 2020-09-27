@@ -22,25 +22,26 @@ if (mysqli_connect_errno()) {
         <?php include "template.php"; ?>
 
 
-        <div class="container py-5">
+        <div class="container py-3">
         <!--HEADING-->
         <h1 class="display-1 m-0 d-none d-lg-block">Goal Throw News</h1>
         <h2 class="display-2 m-0 d-none d-md-block d-lg-none">Goal Throw News</h2>
-        <h4 class="display-4 m-0 d-none d-sm-block d-md-none">Goal Throw News</h4>
-        <h5 class="display-5 m-0  d-block d-sm-none">Goal Throw News</h5>
-        <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
+        <h4 class="display-4 m-0 d-block d-sm-block d-md-none text-center">Goal Throw News</h4>
+      <!--  <h5 class="display-5 m-0  d-block d-sm-none">Goal Throw News</h5>-->
+      <!--  <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
         <p class="d-block mb-0 d-md-none">The premier Water Polo news website</p>
+      -->
         <hr class="pr-3 mt-0">
-        <!---->
+
       </div>
 
 
     <!-- The picture that will replace the carousel when the screen is too small-->
-    <div class="container d-block d-lg-none ">
+    <div class="container d-block d-sm-none ">
       <img class="img-fluid center-block w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="">
     </div>
-    <!-- Carousel -->
-    <div class="container d-none d-lg-block pb-3">
+    <!-- Carousel d-none d-md-block -->
+    <div class="container  d-none d-sm-block pb-3">
 
 
         <!--Carousel Wrapper-->
@@ -61,9 +62,12 @@ if (mysqli_connect_errno()) {
                         </a>
                     </div>
                     <div class="carousel-caption">
-                        <h3 class="h3 d-none d-md-block ">Welcome!</h3>
-                        <h4 class="h4 d-block d-md-none ">Welcome!</h4>
-                        <p>Welcome message to readers.</p>
+                        <h3 class="h3 d-none d-lg-block ">Welcome!</h3>
+                        <h4 class="h4 d-none d-md-block d-lg-none  ">Welcome!</h4>
+                        <h5 class="h5 d-block d-md-none mb-0 ">Welcome!</h5>
+                        <p class=" d-none d-lg-block">Welcome message to readers.</p>
+                        <p class=" d-block d-lg-none mb-0 ">Welcome message to readers.</p>
+
                     </div>
                 </div>
                 <!-- Second Carousel Slide-->
