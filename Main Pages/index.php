@@ -19,23 +19,20 @@ if (mysqli_connect_errno()) {
 <?php include "headerlinks.php"; ?>
 </head>
 
-        <?php include "template.php"; ?>
 
 
+<?php include "template.php"; ?>
         <div class="container py-3">
         <!--HEADING-->
-        <h1 class="display-1 m-0 d-none d-lg-block">Goal Throw News</h1>
-        <h2 class="display-2 m-0 d-none d-md-block d-lg-none">Goal Throw News</h2>
-        <h4 class="display-4 m-0 d-block d-sm-block d-md-none text-center">Goal Throw News</h4>
+        <h1 class="display-1 m-0 d-none d-lg-block text-center leagueGothTittle">Goal Throw News</h1>
+        <h2 class="display-2 m-0 d-none d-md-block d-lg-none leagueGothTittle">Goal Throw News</h2>
+        <h4 class="display-4 m-0 d-block d-sm-block d-md-none text-center leagueGothTittle">Goal Throw News</h4>
       <!--  <h5 class="display-5 m-0  d-block d-sm-none">Goal Throw News</h5>-->
       <!--  <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
-        <p class="d-block mb-0 d-md-none">The premier Water Polo news website</p>
-      -->
-        <hr class="pr-3 mt-0">
+        <p class="d-block mb-0 d-md-none">The premier Water Polo news website</p> -->
+
 
       </div>
-
-
     <!-- The picture that will replace the carousel when the screen is too small-->
 <!--    <div class="container d-block d-sm-none ">
       <img class="img-fluid center-block w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="">

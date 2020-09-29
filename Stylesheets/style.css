@@ -32,9 +32,32 @@ hr{
     height: 1px;
   }
 .openSansReg{
-  font-family: Open Sans Regular !important;
+  font-family: Coquette Bold !important;
+}
+.leagueGothTittle{
+  font-family: League Gothic Regular !important;
+  font-size:8rem;
+  /*text-decoration: underline;*/
 }
 
 li a {
 color: #212529;
+}
+
+@include media-breakpoint-up(sm) {
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+ @include media-breakpoint-up(md) {
+  h2. {
+    font-size: 1.4rem !important;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  h3 {
+    font-size: 5rem !important;
+  }
 }

@@ -11,7 +11,7 @@
   <body>
        <?php include "template.php"; ?>
 
-  <div class="container">
+  <div class="fitcontent">
   <h1 class="display-1 m-0 d-none d-lg-block ">About Us</h1>
         <h2 class="display-2 m-0 d-none d-md-block d-lg-none ">About Us</h2>
         <h4 class="display-4 m-0 d-none d-sm-block d-md-none  ">About Us</h4>

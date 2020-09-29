@@ -22,4 +22,4 @@ rel="stylesheet"
 <link href="../Stylesheets/colors.css" rel="stylesheet">
 <link href="../Stylesheets/assets/menukit.css" rel="stylesheet" >
 <link href="../Stylesheets/assets/menukit.css.map"link rel="stylesheet"  >
-<link  href="../Stylesheets/assets/menukit.scss"> 
+<link  href="../Stylesheets/assets/menukit.scss">
