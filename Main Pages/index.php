@@ -22,11 +22,11 @@ if (mysqli_connect_errno()) {
 
 
 <?php include "template.php"; ?>
-        <div class="container py-3">
+        <div class="container pt-3 pb-5">
         <!--HEADING-->
-        <h1 class="display-1 m-0 d-none d-lg-block text-center leagueGothTittle">Goal Throw News</h1>
-        <h2 class="display-2 m-0 d-none d-md-block d-lg-none leagueGothTittle">Goal Throw News</h2>
-        <h4 class="display-4 m-0 d-block d-sm-block d-md-none text-center leagueGothTittle">Goal Throw News</h4>
+        <h1 class="display-1 m-0 d-none d-lg-block text-center">Goal Throw News</h1>
+        <h2 class="display-2 m-0 d-none d-md-block d-lg-none text-center">Goal Throw News</h2>
+        <h4 class="display-4 m-0 d-block d-sm-block d-md-none text-center">Goal Throw News</h4>
       <!--  <h5 class="display-5 m-0  d-block d-sm-none">Goal Throw News</h5>-->
       <!--  <p class="lead d-none d-md-block"> The premier Water Polo news website</p>
         <p class="d-block mb-0 d-md-none">The premier Water Polo news website</p> -->
@@ -42,7 +42,7 @@ if (mysqli_connect_errno()) {
 
 
         <!--Carousel Wrapper-->
-        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="carousel-example-2" id="topStories" class="carousel slide carousel-fade" data-ride="carousel">
             <!--Indicators-->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -108,13 +108,14 @@ if (mysqli_connect_errno()) {
 
     <div class="mb-2">
     </div>
-    <!--Start next row-->
+
     <div class="container">
         <!-- Latest News -->
-      <?php include "latestnewsheader.php"; ?>
+
+    </div>
       <br>
 
-      <?php
+    <?php
 
       $getposts = mysqli_query($conn, "SELECT * FROM posts");
       $getpostsarray  = mysqli_fetch_all($getposts);
@@ -155,6 +156,10 @@ if (mysqli_connect_errno()) {
 
         <div class="col-1">
         </div><--->
+        <?php include "../Main Pages/latestnewsheader.php";?>
+          <?php include "../cardcarousels/indexCardCarousels/indexLatestNewsCardCarousel.php"; ?>
+            <?php include "../cardcarousels/indexCardCarousels/indexTrendingNewsCardCarousel.php"; ?>
+
     </div>
   <?php include "footer.php"; ?>
 

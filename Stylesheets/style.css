@@ -34,10 +34,8 @@ hr{
 .openSansReg{
   font-family: Coquette Bold !important;
 }
-.leagueGothTittle{
-  font-family: League Gothic Regular !important;
-  font-size:8rem;
-  /*text-decoration: underline;*/
+.ptSansTitle{
+  font-family: pt-sans-narrow, sans-serif !important;
 }
 
 li a {

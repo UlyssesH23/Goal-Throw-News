@@ -23,7 +23,7 @@
               <ul class="dropdown-menu animate fade-up ">
                 <li><a class="dropdown-item icon-arrow"  href="../Main Pages/clubnews.php">Club</a>
                 <ul class="submenu dropdown-menu animate fade-up">                                                    <!--The comment below apply to all code-->
-                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Top Stories</a></li> <!--What we deem to be the most interesting or important completely arbitrarey.-->
+                  <li><a class="dropdown-item" href="../Main Pages/clubnews.php#topStories">Top Stories</a></li> <!--What we deem to be the most interesting or important completely arbitrarey.-->
                   <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Latest News</a></li> <!-- Just the most recent stories-->
                   <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Trending</a></li>  <!-- Determined by up votes and share-->
                   <li><a class="dropdown-item" href="../Main Pages/clubnews.php#">Highlights</a></li> <!-- I would like to allow for people to xend us short hightlight clips and then we can spotlight them on the website like ESPN's top ten.-->

@@ -1,10 +1,10 @@
 <!-- Footer -->
-<footer class="page-footer container-fluid font-small bg-dark" style="background-color:#20A4F3 !important;">
+<footer class="page-footer container-fluid font-small bg-dark p-0" style="background-color:#20A4F3 !important;">
 
 
 </div>
 <!-- Footer Elements -->
-<div class="footer-icons justify-content-center p-0 container navbar-nav">
+<div class="footer-icons m-0 justify-content-center p-0 container navbar-nav">
 <ul class="ml-auto mt-2  mb-none p-1 mr-auto">
 <a class=" ml-auto"href="https://instagram.com" style="color:#ffff;">
 <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
@@ -20,7 +20,7 @@
 </ul>
 </div>
 <!-- Copyright -->
-<div class="footer-copyright text-center py-3">© 2020 Copyright:
+<div class="footer-copyright text-center  w-100 py-3">© 2020 Copyright:
   <a href="GoalThrowNews.com" class="ml-auto mr-auto">GoalThrowNews.com</a>
 </div>
 <!-- Copyright -->
