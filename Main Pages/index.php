@@ -158,6 +158,7 @@ if (mysqli_connect_errno()) {
         </div><--->
         <?php include "../Main Pages/latestnewsheader.php";?>
           <?php include "../cardcarousels/indexCardCarousels/indexLatestNewsCardCarousel.php"; ?>
+          <?php include "../Main Pages/trendingnewsheader.php";?>
             <?php include "../cardcarousels/indexCardCarousels/indexTrendingNewsCardCarousel.php"; ?>
 
     </div>

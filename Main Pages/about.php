@@ -10,27 +10,19 @@
   </head>
   <body>
        <?php include "template.php"; ?>
-
-  <div class="fitcontent">
-  <h1 class="display-1 m-0 d-none d-lg-block ">About Us</h1>
-        <h2 class="display-2 m-0 d-none d-md-block d-lg-none ">About Us</h2>
-        <h4 class="display-4 m-0 d-none d-sm-block d-md-none  ">About Us</h4>
-        <h5 class="display-5 m-0  d-block d-sm-none  ">About Us</h5>
-        <hr>
+       <!-- Jumbotron at the top of the page-->
+       <div class="jumbotron jumbotron-fluid" style="background-color: #355070 !important;">
+  <div class="container">
+    <h1 class="display-1 text-center" style="color: white!important;">About Us</h1>
+  </div>
 </div>
-        <h4 class="display-4 m-0 d-none d-lg-block text-center mt-4 pt-4 text-decoration-underlined">We are Goal Throw News</h4>
-              <h4 class=" m-0 d-none d-md-block d-lg-none text-center  mt-4">We are Goal Throw News</h3>
-              <h5 class=" m-0 d-none d-sm-block d-md-none text-center  mt-4">We are Goal Throw News</h5>
-              <h6 class="display-6 m-0  d-block d-sm-none text-center  mt-4">We are Goal Throw News</h6>
+<!---->
+<!-- Our Team headers--->
+<h3 class="display-3 m-0 text-center d-none d-lg-block" id="latest-news">Our Team</h3>
+<h4 class="display-4 m-0 d-none text-center d-md-block d-lg-none" id="latest-news">Our Team</h4>
+<h5 class="display-5 m-0 	d-block text-center d-md-none" id="latest-news">Our Team</h5>
+<!---->
 
-              <div class="container mx-5 px-5">
-
-              <p class="text-center text-indent mt-4">Goal Throw News is a news website dedicated to covering all things Water Polo. We cover club, highschool, and national waterpolo events. We are based in Southern California and were founded
-with the goal making it easier to follow Water Polo</p>
-</div>
-<div class="mb-4">
-
-</div>
   <?php include "footer.php"; ?>
     </body>
 </html>
