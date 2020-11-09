@@ -1,3 +1,4 @@
+
 .carousel-item {
   height: 100vh;
   min-height: 350px;
@@ -50,6 +51,7 @@ li a {
 color: #212529;
 }
 
+
 @include media-breakpoint-up(sm) {
   h1 {
     font-size: 1.2rem;
@@ -66,4 +68,17 @@ color: #212529;
   h3 {
     font-size: 5rem !important;
   }
+}
+
+/* Css for stretched link making the team cards on the about page clickable */
+.stretched-link::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: rgba(0,0,0,0);
 }

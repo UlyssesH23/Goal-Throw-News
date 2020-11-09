@@ -16,12 +16,12 @@ if (mysqli_connect_errno()) {
 
 <head>
     <title>Goal Throw News</title>
-<?php include "headerlinks.php"; ?>
+    <?php include "../Basic-page-inserts/headerlinks.php"; ?>
 </head>
 
 
 
-<?php include "template.php"; ?>
+<?php include "../Basic-page-inserts/navbar.php"; ?>
 
     <!-- The picture that will replace the carousel when the screen is too small-->
 <!--    <div class="container d-block d-sm-none ">
@@ -163,7 +163,7 @@ if (mysqli_connect_errno()) {
             <?php include "../cardcarousels/indexCardCarousels/indexTrendingNewsCardCarousel.php"; ?>
 
     </div>
-  <?php include "footer.php"; ?>
+    <?php include "../Basic-page-inserts/footer.php"; ?>
 
 
 

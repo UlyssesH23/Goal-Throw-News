@@ -1,10 +1,3 @@
-<!--<script src="assets/jquery-2.2.4.min.js"></script>-->
-
-    <!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
-  <!--  <link href="..Stylesheets/assets/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <script src="..Stylesheets/assets/bootstrap/bootstrap.bundle.min.js" type="text/javascript"></script>
--->
-    <!-- Menukit CSS JS - add this to your project or merge with other your code -->
 
     <nav class="navbar navbar-hover navbar-expand-lg navbar-dark sticky-top" style="background-color:#20A4F3 !important;">
 
@@ -15,7 +8,7 @@
         </button>
         <div class="collapse navbar-collapse" id="main_nav7">
           <ul class="navbar-nav">
-            <li class="nav-item"> <a class="nav-link" href="#">Home </a> </li>
+            <li class="nav-item"> <a class="nav-link" href="../Main Pages/index.php">Home </a> </li>
           <!--News Dropdown-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">News</a>

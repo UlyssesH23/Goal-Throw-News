@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <?php include "headerlinks.php"; ?>
+    <?php include "../Basic-page-inserts/headerlinks.php"; ?>
   </head>
   <body>
-       <?php include "template.php"; ?>
+       <?php include "../Basic-page-inserts/navbar.php"; ?>
        <!-- Jumbotron at the top of the page-->
        <div class="jumbotron jumbotron-fluid" style="background-color: #355070 !important;">
-  <div class="container">
+  <div class="container ml-4 mr-4">
     <h1 class="display-1 text-center" style="color: white!important;">About Us</h1>
   </div>
 </div>
@@ -23,8 +23,46 @@
 <h4 class="display-4 m-0 d-none text-center d-md-block d-lg-none" id="latest-news">Our Team</h4>
 <h5 class="display-5 m-0 	d-block text-center d-md-none" id="latest-news">Our Team</h5>
 <!---->
-
-    <div class="card">
-      <<img src="..." class="card-image-top" alt="...">
+<div class="container">
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="../images/ulysses-hill-team-photo.JPG" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Ulysses Hill</h5>
+        <p class="card-text text-center">Co-Founder, Website Develepor, Writer</p>
+        <a href="../team-bio-pages/ulysses-hill-bio-page.php" class="stretched-link"></a>
+      </div>
     </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title text-center">Marcus Koh</h5>
+        <p class="card-text text-center">Co-Founder, Website Develepor, Writer</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<?php include "../Basic-page-inserts/footer.php"; ?>
 </html>

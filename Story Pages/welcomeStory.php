@@ -5,12 +5,12 @@
     <title>Goal Throw News</title>
     <!-- META TAGS -->
     <meta charset="utf-8">
-  <?php include "../Main Pages/headerlinks.php"; ?>
+    <?php include "../Basic-page-inserts/headerlinks.php"; ?>
 </head>
 
 <body>
-    <?php include "../Main Pages/template.php"; ?>
-    <div class="container py-2">
+<?php include "../Basic-page-inserts/navbar.php"; ?>
+    
 
         <!--HEADING-->
     <!--<h1 class="display-1 m-0 d-none d-lg-block">Goal Throw News</h1>
@@ -21,17 +21,27 @@
         <!---->
         <!--NAV BAR-->
 
-    <div class="container">
-
-      <h3 class="display-3 m-0 mb-3 d-none d-lg-block text-center ">Welcome</h3>
-      <h4 class="display-4 m-0 mb-3 d-none d-md-block d-lg-none text-center">Welcome</h4>
-      <h5 class="display-5 m-0 	d-block d-md-none">Welcome</h5>
-</div>
-      <div class="container text-center w-80">
-              <img class="img-responsive " src="../Goal Throw News (1).png" alt="">
-              </div>
+  
+      
+        <header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="font-weight-light">Vertically Centered Masthead Content</h1>
+        <p class="lead">A great starter layout for a landing page</p>
+      </div>
+    </div>
+  </div>
+</header>
+         
 
     <div class="article-body">
+    <div class="container">
+
+<h3 class="display-3 m-0 mb-3 d-none d-lg-block text-center ">Welcome</h3>
+<h4 class="display-4 m-0 mb-3 d-none d-md-block d-lg-none text-center">Welcome</h4>
+<h5 class="display-5 m-0 	d-block d-md-none">Welcome</h5>
+</div>
       <p class="article-paragraph">
         Welcome to goal throw news!
 
@@ -39,6 +49,6 @@
   </div>
 
 
-    <?php include "footer.php"; ?>
+    <?php include "../Basic-pages-insert/footer.php"; ?>
 
 </html>

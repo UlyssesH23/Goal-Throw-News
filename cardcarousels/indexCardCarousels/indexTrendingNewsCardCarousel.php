@@ -41,7 +41,7 @@
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 <!--Badges Div Used Jquery to insert the badges automatically--> <!--javascript located at badges.js -->
-    <div class="club-badge highschool-badge "></div>
+    <div class="club-badge highschool-badge latest-badge college-badge "></div>
     <!---->
 </div>
 

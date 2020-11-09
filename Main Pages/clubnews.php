@@ -9,15 +9,16 @@
     <!---->
 
     <!-- CSS AND FONTS -->
-  <?php include "headerlinks.php"; ?>
+  <?php include "../Basic-page-inserts/headerlinks.php"; ?>
 
     <!--Let me know if this works-->
 </head>
 
 <body>
-
-        <?php include "template.php"; ?>
-        <div class="container py-5">
+<!-- Navbar Insert -->
+<?php include "../Basic-page-inserts/navbar.php"; ?>
+<!-- -->
+        <<div class="container py-5">
         <!--HEADING-->
         <h2 class="display-2 m-0 d-none d-lg-block">Goal Throw Club News</h2>
         <h3 class="display-3 m-0 d-none d-md-block d-lg-none">Goal Throw Club News</h3>
@@ -93,8 +94,8 @@
   <div class="">
       <?php include "latestnewsheader.php"; ?>
   </div>
-<?php include "../PHP/rankingstitle.php"; ?>
-  <?php include "footer.php"; ?>
+
+  <?php include "../Basic-page-inserts/footer.php"; ?>
 </body>
 
 </html>

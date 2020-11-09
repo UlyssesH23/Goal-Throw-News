@@ -6,12 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Goal Throw National News</title>
-<?php include "headerlinks.php"; ?>
+    <?php include "../Basic-page-inserts/headerlinks.php"; ?>
 </head>
 
 <body>
 
-        <?php include "template.php"; ?>
+<?php include "../Basic-page-inserts/navbar.php"; ?>
         <div class="container py-5">
         <!--HEADING-->
         <h1 class="display-1 m-0 d-none d-lg-block">College News</h3>
@@ -103,7 +103,7 @@
 
          ?>
     </div>
-  <?php include "footer.php"; ?>
+  <?php include "../Basic-page-inserts/footer.php"; ?>
 </body>
 
 </html>

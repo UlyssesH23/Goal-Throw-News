@@ -16,7 +16,7 @@
 
 <body>
 
-        <?php include "template.php"; ?>
+<?php include "../Basic-page-inserts/navbar.php"; ?>
         <div class="container py-5">
         <!--HEADING-->
         <h3 class="display-3 m-0 d-none d-lg-block">Goal Throw High School News</h2>
