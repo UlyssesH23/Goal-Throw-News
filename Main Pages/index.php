@@ -22,7 +22,16 @@ if (mysqli_connect_errno()) {
 
 
 <?php include "../Basic-page-inserts/navbar.php"; ?>
+<?php
+echo "Hello World!";
+class NewClass{
+  public $info = "This is some info.";
+}
+$object = new NewClass;
+var_dump($object);
 
+
+?>
     <!-- The picture that will replace the carousel when the screen is too small-->
 <!--    <div class="container d-block d-sm-none ">
       <img class="img-fluid center-block w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="">
