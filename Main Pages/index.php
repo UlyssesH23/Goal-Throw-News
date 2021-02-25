@@ -23,7 +23,7 @@ if (mysqli_connect_errno()) {
 
 <?php include "../Basic-page-inserts/navbar.php"; ?>
 <?php
-echo "Hello World!";
+echo "Hello World! ";
 class NewClass{
   public $info = "This is some info.";
 }
