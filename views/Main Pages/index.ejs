@@ -3,22 +3,14 @@
 
 <head>
     <title>Goal Throw News</title>
-    <?php include "../Basic-page-inserts/headerlinks.php"; ?>
+    <%- include("../Basic-page-inserts/headerlinks.ejs") %>
 </head>
 
 
 
-<?php include "../Basic-page-inserts/navbar.php"; ?>
-<?php
-echo "Hello World! ";
-class NewClass{
-  public $info = "This is some info.";
-}
-$object = new NewClass;
-var_dump($object);
 
+<%- include("../Basic-page-inserts/navbar.ejs") %>
 
-?>
     <!-- The picture that will replace the carousel when the screen is too small-->
     <!--    <div class="container d-block d-sm-none ">
       <img class="img-fluid center-block w-100" src="https://i.ibb.co/nMmfPVK/Goal-Throw-News-Copy.jpg" alt="">
@@ -157,11 +149,8 @@ var_dump($object);
 
         </div>
         <footer>
-            <% /*
-    Define an optional placeholder for the footer.
-    If a page doesn't define a footer, this section will simply be empty.
-    */ %>
-                <%- defineContent('footer') %>
+
+            <%- include("../Basic-page-inserts/footer.ejs") %>
         </footer>
 
 
