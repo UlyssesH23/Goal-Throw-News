@@ -4,48 +4,33 @@ const bodyParser = require('body-parser');
 const expressLayouts = require('express-ejs-layouts');
 //const request = require('request');
 const https = require("https");
-var path = require('path');
+const path = require('path');
 const http = require("https");
 const app = express();
+const { google } = require('googleapis');
+//const blogger = google.blogger('v3');
+
+const blogger = google.blogger({
+    version: 'v3',
+    auth: 'AIzaSyDUho-xq_oyvuXj3xI456PkC7vUzISddb8'
+});
+
+const params = {
+    blogId: '3213900'
+};
+
+
 app.use(express.static("public"));
 
 
-
-// const options = {
-//     "method": "POST",
-//     "hostname": "bloggerstefan-skliarovv1.p.rapidapi.com",
-//     "port": null,
-//     "path": "/fullPageUpdate",
-//     "headers": {
-//         "content-type": "application/x-www-form-urlencoded",
-//         "x-rapidapi-key": "5767b444f7msh2d0be3565ee1d12p13ad1ejsnf7f7b874e947",
-//         "x-rapidapi-host": "Bloggerstefan-skliarovV1.p.rapidapi.com",
-//         "useQueryString": true
-//     }
-// };
-
-// const req = http.request(options, function(res) {
-//     const chunks = [];
-
-//     res.on("data", function(chunk) {
-//         chunks.push(chunk);
-//     });
-
-//     res.on("end", function() {
-//         const body = Buffer.concat(chunks);
-//         console.log(body.toString());
-//     });
-// });
-
-// req.write(qs.stringify({ blogId: '<REQUIRED>', pageId: '<REQUIRED>', accessToken: '<REQUIRED>' }));
-// req.end();
-
-// req.end(function(res) {
-//     if (res.error) throw new Error(res.error);
-
-//     console.log(res.body);
-// });
-
+// get the blog details
+blogger.blogs.get(params, (err, res) => {
+    if (err) {
+        console.error(err);
+        throw err;
+    }
+    console.log(`The blog url is ${res.data.url}`);
+});
 
 var GTN = {};
 app.set('views', path.join(__dirname, 'views'));
@@ -68,3 +53,12 @@ app.get('/', function(req, res) {
 app.get('/addpost', function(req, res) {
     res.render('Main Pages/addpost2')
 });
+
+app.post('/makeNewPost', function(req, res) {
+    req.body.articleName
+    red.body.articleAuthor
+    req.body.articleAuthor
+
+})
+
+//Blogger API Key: AIzaSyDUho-xq_oyvuXj3xI456PkC7vUzISddb8
